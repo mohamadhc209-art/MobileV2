@@ -170,7 +170,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
                             value: "Saida",
                             child: Text("Saida"),
                           ),
-                          DropdownMenuItem(value: "Sida", child: Text("Sida")),
+                          DropdownMenuItem(value: "Tyre", child: Text("Tyre")),
                         ],
                         onChanged: (v) => setState(() => branch = v!),
                       ),
